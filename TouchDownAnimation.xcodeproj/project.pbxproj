@@ -8,30 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		C83FB6641E43421100382B79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83FB6631E43421100382B79 /* AppDelegate.swift */; };
-		C83FB6661E43421100382B79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83FB6651E43421100382B79 /* ViewController.swift */; };
 		C83FB6691E43421100382B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83FB6671E43421100382B79 /* Main.storyboard */; };
 		C83FB66B1E43421100382B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83FB66A1E43421100382B79 /* Assets.xcassets */; };
 		C83FB66E1E43421100382B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83FB66C1E43421100382B79 /* LaunchScreen.storyboard */; };
 		C83FB67A1E43427900382B79 /* TouchDownControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83FB6791E43427900382B79 /* TouchDownControl.swift */; };
 		C83FB67D1E4356B000382B79 /* UIView+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83FB67C1E4356B000382B79 /* UIView+Appearance.swift */; };
+		C8A1AD881ED44EE500DD794E /* RoundedViewDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A1AD861ED44EE500DD794E /* RoundedViewDecorator.swift */; };
+		C8A1AD891ED44EE500DD794E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A1AD871ED44EE500DD794E /* ViewController.swift */; };
 		C8D91EC31E45343400912927 /* SanFranciscoDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8D91EC11E45343400912927 /* SanFranciscoDisplay-Bold.otf */; };
 		C8D91EC41E45343400912927 /* SanFranciscoDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C8D91EC21E45343400912927 /* SanFranciscoDisplay-Regular.otf */; };
-		C8D91EC61E45C37100912927 /* RoundedViewDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D91EC51E45C37100912927 /* RoundedViewDecorator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C83FB6601E43421100382B79 /* TouchDownAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchDownAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83FB6631E43421100382B79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C83FB6651E43421100382B79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C83FB6681E43421100382B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C83FB66A1E43421100382B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C83FB66D1E43421100382B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C83FB66F1E43421100382B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C83FB6791E43427900382B79 /* TouchDownControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDownControl.swift; sourceTree = "<group>"; };
 		C83FB67C1E4356B000382B79 /* UIView+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Appearance.swift"; sourceTree = "<group>"; };
+		C8A1AD861ED44EE500DD794E /* RoundedViewDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedViewDecorator.swift; sourceTree = "<group>"; };
+		C8A1AD871ED44EE500DD794E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8D91EC11E45343400912927 /* SanFranciscoDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Bold.otf"; sourceTree = "<group>"; };
 		C8D91EC21E45343400912927 /* SanFranciscoDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SanFranciscoDisplay-Regular.otf"; sourceTree = "<group>"; };
-		C8D91EC51E45C37100912927 /* RoundedViewDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedViewDecorator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +64,10 @@
 		C83FB6621E43421100382B79 /* TouchDownAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				C8D91EBF1E45343400912927 /* Resorces */,
-				C83FB6781E43427900382B79 /* TouchDownControl */,
 				C83FB6631E43421100382B79 /* AppDelegate.swift */,
-				C83FB6651E43421100382B79 /* ViewController.swift */,
-				C8D91EC51E45C37100912927 /* RoundedViewDecorator.swift */,
+				C83FB6781E43427900382B79 /* TouchDownControl */,
+				C8A1AD851ED44EE500DD794E /* UI */,
+				C8D91EBF1E45343400912927 /* Resorces */,
 				C83FB6671E43421100382B79 /* Main.storyboard */,
 				C83FB66A1E43421100382B79 /* Assets.xcassets */,
 				C83FB66C1E43421100382B79 /* LaunchScreen.storyboard */,
@@ -92,6 +91,15 @@
 				C83FB67C1E4356B000382B79 /* UIView+Appearance.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C8A1AD851ED44EE500DD794E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C8A1AD861ED44EE500DD794E /* RoundedViewDecorator.swift */,
+				C8A1AD871ED44EE500DD794E /* ViewController.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		C8D91EBF1E45343400912927 /* Resorces */ = {
@@ -185,9 +193,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C83FB6661E43421100382B79 /* ViewController.swift in Sources */,
+				C8A1AD891ED44EE500DD794E /* ViewController.swift in Sources */,
+				C8A1AD881ED44EE500DD794E /* RoundedViewDecorator.swift in Sources */,
 				C83FB67A1E43427900382B79 /* TouchDownControl.swift in Sources */,
-				C8D91EC61E45C37100912927 /* RoundedViewDecorator.swift in Sources */,
 				C83FB67D1E4356B000382B79 /* UIView+Appearance.swift in Sources */,
 				C83FB6641E43421100382B79 /* AppDelegate.swift in Sources */,
 			);
